@@ -31,15 +31,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2025-04-18 23:14:27 +0000",
       "minecraft:birch_forest": "2025-04-18 03:10:49 +0000",
       "minecraft:windswept_hills": "2025-04-18 22:53:18 +0000",
       "minecraft:beach": "2025-04-18 03:10:52 +0000",
       "minecraft:river": "2025-04-18 03:11:11 +0000",
+      "minecraft:stony_shore": "2025-04-18 23:12:55 +0000",
       "minecraft:swamp": "2025-04-18 03:10:33 +0000",
       "minecraft:cold_ocean": "2025-04-18 22:53:31 +0000",
       "minecraft:forest": "2025-04-18 03:11:34 +0000",
       "minecraft:deep_cold_ocean": "2025-04-18 22:53:34 +0000",
       "minecraft:ocean": "2025-04-18 03:10:53 +0000",
+      "minecraft:windswept_gravelly_hills": "2025-04-18 23:09:17 +0000",
       "minecraft:plains": "2025-04-18 03:11:39 +0000"
     },
     "done": false
@@ -808,7 +811,10 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:enderman": "2025-04-18 21:16:53 +0000"
+      "minecraft:skeleton": "2025-04-18 23:07:56 +0000",
+      "minecraft:creeper": "2025-04-18 23:13:38 +0000",
+      "minecraft:enderman": "2025-04-18 21:16:53 +0000",
+      "minecraft:zombie": "2025-04-18 23:13:04 +0000"
     },
     "done": false
   },
@@ -1016,6 +1022,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-04-18 23:10:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2025-04-18 22:55:05 +0000"
@@ -1025,6 +1037,12 @@
   "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
     "criteria": {
       "has_kelp": "2025-04-18 22:54:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-04-18 23:10:10 +0000"
     },
     "done": true
   },
@@ -1056,12 +1074,18 @@
     "criteria": {
       "shrubland": "2025-04-18 22:52:36 +0000",
       "highland": "2025-04-18 22:53:17 +0000",
+      "jacaranda_glade": "2025-04-18 23:12:07 +0000",
       "marsh": "2025-04-18 22:53:24 +0000",
+      "jade_cliffs": "2025-04-18 23:12:14 +0000",
       "wetland": "2025-04-18 22:56:21 +0000",
       "orchard": "2025-04-18 22:53:22 +0000",
       "overgrown_greens": "2025-04-18 22:52:32 +0000",
+      "coniferous_forest": "2025-04-18 23:10:36 +0000",
       "redwood_forest": "2025-04-18 22:52:21 +0000",
       "dune_beach": "2025-04-18 22:52:10 +0000",
+      "seasonal_forest": "2025-04-18 23:10:32 +0000",
+      "lavender_field": "2025-04-18 23:13:21 +0000",
+      "prairie": "2025-04-18 23:11:54 +0000",
       "gravel_beach": "2025-04-18 22:56:19 +0000"
     },
     "done": false
@@ -1075,6 +1099,12 @@
   "minecraft:recipes/building_blocks/chiseled_bookshelf": {
     "criteria": {
       "has_book": "2025-04-18 22:55:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-04-18 23:07:56 +0000"
     },
     "done": true
   },
@@ -1099,6 +1129,12 @@
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2025-04-18 22:53:01 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_red_leggings": {
+    "criteria": {
+      "has_item": "2025-04-18 23:17:07 +0000"
     },
     "done": true
   },
@@ -1162,9 +1198,27 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/tide_red_boots": {
+    "criteria": {
+      "has_item": "2025-04-18 23:17:07 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/sea_serpent_scales_red_to_sea_serpent_scale_block_red": {
+    "criteria": {
+      "has_sea_serpent_scales_red": "2025-04-18 23:17:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/brush": {
     "criteria": {
       "has_copper_ingot": "2025-04-18 23:01:23 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_trident": {
+    "criteria": {
+      "has_item": "2025-04-18 23:17:07 +0000"
     },
     "done": true
   },
@@ -1174,9 +1228,21 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_sea_serpent": {
+    "criteria": {
+      "killed_fire_dragon": "2025-04-18 23:17:04 +0000"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/kill_stymphalian_bird": {
     "criteria": {
       "killed_fire_dragon": "2025-04-18 22:57:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-04-18 23:10:10 +0000"
     },
     "done": true
   },
@@ -1187,9 +1253,21 @@
     },
     "done": false
   },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2025-04-18 23:10:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2025-04-18 22:53:01 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_red_chestplate": {
+    "criteria": {
+      "has_item": "2025-04-18 23:17:07 +0000"
     },
     "done": true
   },
@@ -1223,6 +1301,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/fir_wood": {
+    "criteria": {
+      "has_log": "2025-04-18 23:11:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2025-04-18 22:45:26 +0000"
@@ -1235,15 +1319,39 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/fir_planks": {
+    "criteria": {
+      "has_logs": "2025-04-18 23:11:19 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/sea_serpent_arrow": {
+    "criteria": {
+      "has_item": "2025-04-18 23:17:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2025-04-18 22:54:38 +0000"
     },
     "done": true
   },
+  "iceandfire:recipes/combat/tide_red_helmet": {
+    "criteria": {
+      "has_item": "2025-04-18 23:17:07 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/misc/copper_ingot_to_nuggets": {
     "criteria": {
       "has_item": "2025-04-18 23:01:23 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
+    "criteria": {
+      "has_lavender": "2025-04-18 23:13:57 +0000"
     },
     "done": true
   },
