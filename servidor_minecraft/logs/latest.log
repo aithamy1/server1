@@ -367,3 +367,58 @@ java.lang.IllegalStateException: Invalid pool element found
 [18Apr2025 23:26:54.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]
 [18Apr2025 23:27:11.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Survival Mode]
 [18Apr2025 23:27:37.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Dragonslayer]
+[18Apr2025 23:29:47.703] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/30030, l='ServerLevel[New World]', x=-617.47, y=68.10, z=5919.58]
+[18Apr2025 23:29:47.704] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/30031, l='ServerLevel[New World]', x=-617.34, y=67.85, z=5918.47]
+[18Apr2025 23:30:26.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Diamonds!]
+[18Apr2025 23:32:44.034] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 moved wrongly!
+[18Apr2025 23:34:30.154] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34147, l='ServerLevel[New World]', x=-912.10, y=67.67, z=7051.61]
+[18Apr2025 23:34:30.154] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34148, l='ServerLevel[New World]', x=-912.10, y=67.67, z=7051.61]
+[18Apr2025 23:34:30.155] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34149, l='ServerLevel[New World]', x=-912.10, y=67.67, z=7051.61]
+[18Apr2025 23:34:30.155] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34150, l='ServerLevel[New World]', x=-912.10, y=67.67, z=7051.61]
+[18Apr2025 23:34:30.156] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34151, l='ServerLevel[New World]', x=-912.08, y=55.38, z=7054.01]
+[18Apr2025 23:34:30.156] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34152, l='ServerLevel[New World]', x=-912.08, y=55.38, z=7054.01]
+[18Apr2025 23:34:30.156] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34153, l='ServerLevel[New World]', x=-912.08, y=55.38, z=7054.01]
+[18Apr2025 23:34:30.157] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34154, l='ServerLevel[New World]', x=-912.08, y=55.38, z=7054.01]
+[18Apr2025 23:34:30.157] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34155, l='ServerLevel[New World]', x=-912.08, y=55.38, z=7054.01]
+[18Apr2025 23:35:24.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Creative Mode]
+[18Apr2025 23:35:40.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Survival Mode]
+[18Apr2025 23:42:43.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Sea? Not a Problem]
+[18Apr2025 23:43:37.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has completed the challenge [The Power of the Sun]
+[18Apr2025 23:45:57.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Stone Age]
+[18Apr2025 23:46:23.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Stone Age]
+[18Apr2025 23:49:46.861] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ICCCeee moved wrongly!
+[18Apr2025 23:52:27.806] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ICCCeee moved wrongly!
+[18Apr2025 23:54:21.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Jungle Fliers]
+[18Apr2025 23:55:50.044] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 was kicked for floating a vehicle too long!
+[18Apr2025 23:55:50.091] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 lost connection: Flying is not enabled on this server
+[18Apr2025 23:55:50.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 left the game
+[18Apr2025 23:56:09.803] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: neroo024[/127.145.253.104:44907] logged in with entity id 50733 at (-728.4173148144665, 70.00692701634767, 6974.190359249845)
+[18Apr2025 23:56:09.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 joined the game
+[18Apr2025 23:56:09.868] [Server thread/INFO] [Jade/]: Syncing config to neroo024 (c024ae1d-d49f-3716-ac45-aebdf81903dd)
+[18Apr2025 23:56:18.391] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 was kicked for floating a vehicle too long!
+[18Apr2025 23:56:18.443] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 lost connection: Flying is not enabled on this server
+[18Apr2025 23:56:18.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 left the game
+[18Apr2025 23:56:29.300] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: neroo024[/127.145.253.104:37109] logged in with entity id 50820 at (-687.4622957172004, 75.90479310852434, 6983.7763478284205)
+[18Apr2025 23:56:29.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 joined the game
+[18Apr2025 23:56:29.361] [Server thread/INFO] [Jade/]: Syncing config to neroo024 (c024ae1d-d49f-3716-ac45-aebdf81903dd)
+[18Apr2025 23:56:45.198] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.35697329299539937
+[18Apr2025 23:56:45.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.38721944304701356
+[18Apr2025 23:56:53.644] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.4856633055873271
+[18Apr2025 23:56:56.142] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 was kicked for floating a vehicle too long!
+[18Apr2025 23:56:56.192] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 lost connection: Flying is not enabled on this server
+[18Apr2025 23:56:56.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 left the game
+[18Apr2025 23:57:01.797] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: neroo024[/127.145.253.104:51807] logged in with entity id 51039 at (-703.462733705017, 89.48740918446286, 6974.760074766462)
+[18Apr2025 23:57:01.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 joined the game
+[18Apr2025 23:57:01.851] [Server thread/INFO] [Jade/]: Syncing config to neroo024 (c024ae1d-d49f-3716-ac45-aebdf81903dd)
+[18Apr2025 23:58:30.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.29016946042497693
+[18Apr2025 23:58:30.752] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.7199112260848324
+[18Apr2025 23:58:30.800] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 1.2447344385781207
+[18Apr2025 23:58:30.851] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 1.852772643674939
+[18Apr2025 23:58:30.902] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.6508582128468561
+[18Apr2025 23:58:30.994] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.5703421140995033
+[18Apr2025 23:58:31.000] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.4993269150043034
+[18Apr2025 23:58:31.050] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.9675000314529143
+[18Apr2025 23:58:31.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 1.3804287201605803
+[18Apr2025 23:58:31.153] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.33272149639390136
+[18Apr2025 23:58:31.206] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.653948633628147
+[18Apr2025 23:58:31.251] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.2518407279942494
