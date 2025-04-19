@@ -2997,3 +2997,23 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [19Apr2025 00:07:45.944] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ICCCeee moved wrongly!
 [19Apr2025 00:07:52.443] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ICCCeee moved wrongly!
 [19Apr2025 00:09:02.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Buck Beak]
+[19Apr2025 00:10:38.772] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[19Apr2025 00:10:38.787] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[19Apr2025 00:11:52.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Creative Mode]
+[19Apr2025 00:13:28.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Survival Mode]
+[19Apr2025 00:15:38.780] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[19Apr2025 00:15:38.797] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[19Apr2025 00:15:45.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 5.2590737386883575,0.0,-8.826081788896772
+[19Apr2025 00:15:45.679] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 5.880690633375025,0.0,-9.955510909303484
+[19Apr2025 00:15:45.679] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 6.493282040353051,0.0,-11.091256080506355
+[19Apr2025 00:15:45.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 7.097912967171851,0.0,-12.232572008511852
+[19Apr2025 00:15:45.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 7.695522750490227,0.0,-13.37880134401803
+[19Apr2025 00:15:45.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 8.286939885241281,0.0,-14.529364304939008
+[19Apr2025 00:15:45.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 8.872895103955898,0.0,-15.683749523475853
+[19Apr2025 00:15:45.706] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 4.826809047986444,0.0,-9.137692249414613
+[19Apr2025 00:15:45.752] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 5.403697901186433,0.0,-10.298422125102661
+[19Apr2025 00:15:45.798] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 5.976839175572877,0.0,-11.461774562463688
+[19Apr2025 00:17:29.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.30000468329035357
+[19Apr2025 00:18:00.543] [Server thread/DEBUG] [mixin/]: Mixing gameplay.CooldownInstanceAccessor from the_bumblezone-common.mixins.json into net.minecraft.world.item.ItemCooldowns$CooldownInstance
+[19Apr2025 00:20:38.783] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[19Apr2025 00:20:38.810] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World

@@ -46,8 +46,11 @@
       "minecraft:forest": "2025-04-18 03:11:34 +0000",
       "minecraft:deep_cold_ocean": "2025-04-18 22:53:34 +0000",
       "minecraft:ocean": "2025-04-18 03:10:53 +0000",
+      "minecraft:jungle": "2025-04-19 00:14:09 +0000",
+      "minecraft:windswept_savanna": "2025-04-19 00:14:38 +0000",
       "minecraft:old_growth_birch_forest": "2025-04-18 23:26:22 +0000",
       "minecraft:windswept_gravelly_hills": "2025-04-18 23:09:17 +0000",
+      "minecraft:savanna": "2025-04-19 00:14:39 +0000",
       "minecraft:plains": "2025-04-18 03:11:39 +0000"
     },
     "done": false
@@ -1000,7 +1003,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_porkchop": "2025-04-18 21:23:50 +0000"
+      "cooked_porkchop": "2025-04-18 21:23:50 +0000",
+      "cookie": "2025-04-19 00:15:42 +0000"
     },
     "done": false
   },
@@ -1066,6 +1070,7 @@
       "redwood_forest": "2025-04-18 22:52:21 +0000",
       "dune_beach": "2025-04-18 22:52:10 +0000",
       "seasonal_forest": "2025-04-18 23:10:32 +0000",
+      "volcano": "2025-04-19 00:05:44 +0000",
       "pasture": "2025-04-18 23:41:33 +0000",
       "volcanic_plains": "2025-04-18 23:32:21 +0000",
       "lavender_field": "2025-04-18 23:13:21 +0000",
@@ -1870,6 +1875,48 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/armor_green_leggings": {
+    "criteria": {
+      "has_item": "2025-04-19 00:18:42 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_green_chestplate": {
+    "criteria": {
+      "has_item": "2025-04-19 00:18:42 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_green_helmet": {
+    "criteria": {
+      "has_item": "2025-04-19 00:18:42 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonscales_green_to_dragonscale_green": {
+    "criteria": {
+      "has_dragonscales_green": "2025-04-19 00:18:42 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/skull_to_bone_meal": {
+    "criteria": {
+      "has_item": "2025-04-19 00:18:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-04-19 00:19:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-04-19 00:19:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
     "criteria": {
       "has_mangrove_roots": "2025-04-19 00:04:55 +0000"
@@ -1879,6 +1926,24 @@
   "minecraft:recipes/building_blocks/mangrove_wood": {
     "criteria": {
       "has_log": "2025-04-19 00:04:35 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_green_boots": {
+    "criteria": {
+      "has_item": "2025-04-19 00:18:42 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/tame_hippogryph": {
+    "criteria": {
+      "tame_rat": "2025-04-19 00:09:02 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_stick": {
+    "criteria": {
+      "has_item": "2025-04-19 00:18:43 +0000"
     },
     "done": true
   },

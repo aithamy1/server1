@@ -37,6 +37,7 @@
       "minecraft:windswept_hills": "2025-04-18 22:53:16 +0000",
       "minecraft:bamboo_jungle": "2025-04-18 23:33:31 +0000",
       "minecraft:beach": "2025-04-18 22:51:47 +0000",
+      "minecraft:dark_forest": "2025-04-19 00:15:23 +0000",
       "minecraft:mangrove_swamp": "2025-04-19 00:03:56 +0000",
       "minecraft:river": "2025-04-18 21:24:04 +0000",
       "minecraft:lukewarm_ocean": "2025-04-18 23:35:38 +0000",
@@ -46,8 +47,11 @@
       "minecraft:forest": "2025-04-18 22:51:46 +0000",
       "minecraft:deep_cold_ocean": "2025-04-18 22:55:46 +0000",
       "minecraft:ocean": "2025-04-18 22:53:29 +0000",
+      "minecraft:jungle": "2025-04-19 00:14:08 +0000",
+      "minecraft:windswept_savanna": "2025-04-19 00:14:34 +0000",
       "minecraft:old_growth_birch_forest": "2025-04-18 23:26:22 +0000",
       "minecraft:windswept_gravelly_hills": "2025-04-18 23:09:15 +0000",
+      "minecraft:savanna": "2025-04-19 00:14:36 +0000",
       "minecraft:plains": "2025-04-18 21:13:39 +0000"
     },
     "done": false
@@ -600,6 +604,7 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "woodland": "2025-04-19 00:05:40 +0000",
       "shrubland": "2025-04-18 22:52:36 +0000",
       "rocky_shrubland": "2025-04-18 23:29:51 +0000",
       "bayou": "2025-04-19 00:05:29 +0000",
@@ -618,6 +623,7 @@
       "redwood_forest": "2025-04-18 22:52:17 +0000",
       "dune_beach": "2025-04-18 22:52:09 +0000",
       "seasonal_forest": "2025-04-18 23:10:31 +0000",
+      "volcano": "2025-04-19 00:05:42 +0000",
       "volcanic_plains": "2025-04-18 23:33:12 +0000",
       "lavender_field": "2025-04-18 23:13:22 +0000",
       "grassland": "2025-04-18 23:32:08 +0000",
@@ -1784,6 +1790,36 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2025-04-18 23:59:10 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_green_leggings": {
+    "criteria": {
+      "has_item": "2025-04-19 00:18:38 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_green_chestplate": {
+    "criteria": {
+      "has_item": "2025-04-19 00:18:38 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_green_helmet": {
+    "criteria": {
+      "has_item": "2025-04-19 00:18:38 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonscales_green_to_dragonscale_green": {
+    "criteria": {
+      "has_dragonscales_green": "2025-04-19 00:18:38 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_green_boots": {
+    "criteria": {
+      "has_item": "2025-04-19 00:18:38 +0000"
     },
     "done": true
   },
