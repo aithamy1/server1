@@ -293,3 +293,36 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [19Apr2025 00:15:45.752] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 5.403697901186433,0.0,-10.298422125102661
 [19Apr2025 00:15:45.798] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 5.976839175572877,0.0,-11.461774562463688
 [19Apr2025 00:17:29.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.30000468329035357
+[19Apr2025 00:21:35.460] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[19Apr2025 00:22:45.650] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece/]: Failed to get element ResourceKey[minecraft:worldgen/processor_list / nova_structures:loot_degradation]
+[19Apr2025 00:22:45.650] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer/]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_163129_(PoolElementStructurePiece.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:57) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:454) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:199) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.server.level.ChunkMap.m_288112_(ChunkMap.java:578) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:269) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:758) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[19Apr2025 00:23:41.719] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-942, y=65, z=6219} BlockPos{x=-608, y=81, z=1360}
+[19Apr2025 00:24:47.126] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! 0.9507396393296972,0.0,-10.376667425330083
+[19Apr2025 00:24:47.127] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! 1.0695820942469254,0.0,-11.673750853507357
+[19Apr2025 00:24:47.136] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 0.7960147153785329,0.0,-10.489685772002304
+[19Apr2025 00:24:47.173] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 0.8955165548008495,0.0,-11.800896493502592
+[19Apr2025 00:26:11.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]
+[19Apr2025 00:29:26.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Survival Mode]

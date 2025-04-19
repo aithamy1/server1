@@ -621,6 +621,7 @@
       "mediterranean_forest": "2025-04-18 23:39:44 +0000",
       "coniferous_forest": "2025-04-18 23:10:44 +0000",
       "redwood_forest": "2025-04-18 22:52:17 +0000",
+      "aspen_glade": "2025-04-19 00:23:11 +0000",
       "dune_beach": "2025-04-18 22:52:09 +0000",
       "seasonal_forest": "2025-04-18 23:10:31 +0000",
       "volcano": "2025-04-19 00:05:42 +0000",
@@ -1814,6 +1815,18 @@
   "iceandfire:recipes/building_blocks/dragonscales_green_to_dragonscale_green": {
     "criteria": {
       "has_dragonscales_green": "2025-04-19 00:18:38 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/amphithere_macuahuitl": {
+    "criteria": {
+      "has_item": "2025-04-19 00:28:34 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/amphithere_arrow": {
+    "criteria": {
+      "has_item": "2025-04-19 00:28:34 +0000"
     },
     "done": true
   },
