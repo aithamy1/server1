@@ -1,8 +1,8 @@
-[18Apr2025 22:41:15.851] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[18Apr2025 22:41:15.855] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[18Apr2025 22:41:16.657] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[18Apr2025 22:41:16.688] [main/INFO] [gg.essential.loader.stage1.EssentialLoaderBase/]: Updating Essential Loader (stage2) version 1.6.3 (285f951adc7537f49ae3ef9fc0d2fd3e) from union:/workspaces/server1/servidor_minecraft/mods/Essential-forge_1-20-1.jar%23121!/essential-loader-stage2-modlauncher9-1.6.3.jar
-[18Apr2025 22:41:16.695] [main/FATAL] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Encountered serious error loading transformation service, expect problems
+[19Apr2025 00:00:01.073] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[19Apr2025 00:00:01.083] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[19Apr2025 00:00:01.571] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[19Apr2025 00:00:01.590] [main/INFO] [gg.essential.loader.stage1.EssentialLoaderBase/]: Updating Essential Loader (stage2) version 1.6.3 (285f951adc7537f49ae3ef9fc0d2fd3e) from union:/workspaces/server1/servidor_minecraft/mods/Essential-forge_1-20-1.jar%23121!/essential-loader-stage2-modlauncher9-1.6.3.jar
+[19Apr2025 00:00:01.594] [main/FATAL] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Encountered serious error loading transformation service, expect problems
 java.util.ServiceConfigurationError: cpw.mods.modlauncher.api.ITransformationService: Provider gg.essential.container.loader.stage0.EssentialTransformationService could not be instantiated
 	at java.util.ServiceLoader.fail(ServiceLoader.java:586) ~[?:?]
 	at java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:813) ~[?:?]
@@ -107,24 +107,24 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.codec.digest.Dig
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
 	at java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:789) ~[?:?]
 	... 16 more
-[18Apr2025 22:41:16.725] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[18Apr2025 22:41:16.727] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/server1/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar%23120!/
-[18Apr2025 22:41:16.738] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/server1/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar
-[18Apr2025 22:41:16.740] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
-[18Apr2025 22:41:16.829] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[18Apr2025 22:41:16.843] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
-[18Apr2025 22:41:17.212] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[18Apr2025 22:41:17.219] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Apr2025 22:41:17.222] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Apr2025 22:41:17.224] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Apr2025 22:41:17.469] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[18Apr2025 22:41:17.470] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[18Apr2025 22:41:18.394] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
-[18Apr2025 22:41:18.405] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
-[18Apr2025 22:41:19.511] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
-[18Apr2025 22:41:20.575] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[18Apr2025 22:41:20.688] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[18Apr2025 22:41:21.027] [main/INFO] [Puzzles Lib/]: Loading 23 mods:
+[19Apr2025 00:00:01.612] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[19Apr2025 00:00:01.613] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/server1/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar%23120!/
+[19Apr2025 00:00:01.622] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/server1/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar
+[19Apr2025 00:00:01.624] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[19Apr2025 00:00:01.672] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[19Apr2025 00:00:01.681] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[19Apr2025 00:00:01.919] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[19Apr2025 00:00:01.920] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Apr2025 00:00:01.921] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Apr2025 00:00:01.922] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Apr2025 00:00:02.071] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[19Apr2025 00:00:02.073] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[19Apr2025 00:00:02.661] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[19Apr2025 00:00:02.668] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[19Apr2025 00:00:03.351] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[19Apr2025 00:00:04.196] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[19Apr2025 00:00:04.270] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[19Apr2025 00:00:04.475] [main/INFO] [Puzzles Lib/]: Loading 23 mods:
 	- alexsmobs 1.22.9
 	- biomesoplenty 19.0.0.96
 	- carryon 2.1.2.7
@@ -148,38 +148,42 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.codec.digest.Dig
 	- the_bumblezone 7.6.11+1.20.1-forge
 		\-- athena 3.1.1
 	- xaerominimap 25.2.0
-[18Apr2025 22:41:21.058] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Apr2025 22:41:22.341] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER
-[18Apr2025 22:41:22.342] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/particle/ParticleEngine (java.lang.RuntimeException: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER)
-[18Apr2025 22:41:22.342] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.particle.ParticleEngine was not found the_bumblezone-common.mixins.json:client.ParticleEngineAccessor
-[18Apr2025 22:41:23.446] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
-[18Apr2025 22:41:23.785] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[18Apr2025 22:41:34.115] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
-[18Apr2025 22:41:34.150] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
-[18Apr2025 22:41:34.420] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[18Apr2025 22:41:34.422] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[18Apr2025 22:41:34.520] [ForkJoinPool.commonPool-worker-1/INFO] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: [Paladin's Furniture Update Check] Cached update file detected, using that!
-[18Apr2025 22:41:36.979] [main/WARN] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: Found block type with duplicate id (minecraft:oak), skipping
-[18Apr2025 22:41:39.810] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
-[18Apr2025 22:41:40.165] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[18Apr2025 22:41:40.168] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[18Apr2025 22:41:40.170] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[18Apr2025 22:41:40.170] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[18Apr2025 22:41:40.174] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[18Apr2025 22:41:40.175] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[18Apr2025 22:41:40.179] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[18Apr2025 22:41:40.296] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[18Apr2025 22:41:40.298] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[18Apr2025 22:41:40.427] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[18Apr2025 22:41:40.452] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
-[18Apr2025 22:41:40.453] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
-[18Apr2025 22:41:40.493] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[18Apr2025 22:41:40.497] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[18Apr2025 22:41:40.514] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
-[18Apr2025 22:41:40.514] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[18Apr2025 22:41:40.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.32 Target: null
-[18Apr2025 22:41:40.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[18Apr2025 22:41:40.641] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[19Apr2025 00:00:04.490] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Apr2025 00:00:05.025] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER
+[19Apr2025 00:00:05.026] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/particle/ParticleEngine (java.lang.RuntimeException: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER)
+[19Apr2025 00:00:05.026] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.particle.ParticleEngine was not found the_bumblezone-common.mixins.json:client.ParticleEngineAccessor
+[19Apr2025 00:00:05.802] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
+[19Apr2025 00:00:05.959] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19Apr2025 00:00:12.739] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[19Apr2025 00:00:12.782] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[19Apr2025 00:00:12.954] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[19Apr2025 00:00:12.954] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[19Apr2025 00:00:15.250] [main/WARN] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: Found block type with duplicate id (minecraft:oak), skipping
+[19Apr2025 00:00:15.326] [ForkJoinPool.commonPool-worker-1/INFO] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: [Paladin's Furniture Update Check] Is up to date!
+[19Apr2025 00:00:17.086] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[19Apr2025 00:00:17.195] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19Apr2025 00:00:17.196] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[19Apr2025 00:00:17.196] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[19Apr2025 00:00:17.196] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[19Apr2025 00:00:17.196] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[19Apr2025 00:00:17.197] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[19Apr2025 00:00:17.197] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[19Apr2025 00:00:17.295] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[19Apr2025 00:00:17.297] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[19Apr2025 00:00:17.369] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[19Apr2025 00:00:17.389] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[19Apr2025 00:00:17.393] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[19Apr2025 00:00:19.534] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19Apr2025 00:00:21.336] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
+[19Apr2025 00:00:21.336] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
+[19Apr2025 00:00:21.578] [main/INFO] [PFM-DataGen/]: Data Hash for Game Data and Variant List matched, skipping generation
+[19Apr2025 00:00:22.664] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[19Apr2025 00:00:22.665] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[19Apr2025 00:00:22.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[19Apr2025 00:00:22.685] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[19Apr2025 00:00:22.692] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.32 Target: null
+[19Apr2025 00:00:22.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[19Apr2025 00:00:22.818] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -194,231 +198,85 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[18Apr2025 22:41:40.642] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
-[18Apr2025 22:41:40.654] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
-[18Apr2025 22:41:40.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18Apr2025 22:41:40.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[18Apr2025 22:41:43.290] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18Apr2025 22:41:45.201] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
-[18Apr2025 22:41:45.202] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
-[18Apr2025 22:41:46.047] [main/INFO] [PFM-DataGen/]: Data Hash for Game Data and Variant List matched, skipping generation
-[18Apr2025 22:41:47.979] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[18Apr2025 22:41:49.311] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
-[18Apr2025 22:41:49.462] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2394 advancements
-[18Apr2025 22:41:49.479] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[18Apr2025 22:41:49.484] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[18Apr2025 22:41:50.911] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[18Apr2025 22:41:50.911] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[18Apr2025 22:41:50.911] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[18Apr2025 22:41:50.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18Apr2025 22:41:50.992] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[18Apr2025 22:41:51.030] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[18Apr2025 22:41:51.145] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18Apr2025 22:41:51.145] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[18Apr2025 22:41:51.145] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18Apr2025 22:41:51.146] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[18Apr2025 22:41:51.171] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
-[18Apr2025 22:41:51.172] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easymagic
-[18Apr2025 22:41:51.464] [Server thread/INFO] [Framework/]: Loading server configs...
-[18Apr2025 22:41:52.065] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[18Apr2025 22:41:52.066] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[18Apr2025 22:41:52.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[18Apr2025 22:41:59.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18Apr2025 22:42:05.535] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.536] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.538] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.539] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.539] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.540] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.540] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.541] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.542] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.542] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.543] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.544] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.544] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:05.706] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Apr2025 22:42:06.205] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[18Apr2025 22:42:06.705] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
-[18Apr2025 22:42:06.975] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7771 ms
-[18Apr2025 22:42:06.976] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.814s)! For help, type "help"
-[18Apr2025 22:42:07.025] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[18Apr2025 22:42:07.034] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[18Apr2025 22:42:07.034] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[18Apr2025 22:42:37.749] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[18Apr2025 22:42:37.829] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ICCCeee[/127.62.81.79:34983] logged in with entity id 42 at (-356.43981823281644, 63.9375, -1040.9701168774009)
-[18Apr2025 22:42:37.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee joined the game
-[18Apr2025 22:42:38.028] [Server thread/INFO] [Jade/]: Syncing config to ICCCeee (2c4b5a4a-1030-3cc6-bbf6-cc08ce9b3f24)
-[18Apr2025 22:42:40.393] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2558ms or 51 ticks behind
-[18Apr2025 22:43:10.013] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: neroo024[/127.145.253.104:34113] logged in with entity id 458 at (-356.25922839919093, 63.9375, -1040.1115056469382)
-[18Apr2025 22:43:10.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 joined the game
-[18Apr2025 22:43:10.134] [Server thread/INFO] [Jade/]: Syncing config to neroo024 (c024ae1d-d49f-3716-ac45-aebdf81903dd)
-[18Apr2025 22:45:26.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [A Seedy Place]
-[18Apr2025 22:45:44.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [The Parrots and the Bats]
-[18Apr2025 22:46:51.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [The Parrots and the Bats]
-[18Apr2025 22:47:17.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Survival Mode]
-[18Apr2025 22:48:10.912] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 moved wrongly!
-[18Apr2025 22:48:28.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Sweet Dreams]
-[18Apr2025 22:49:08.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Creative Mode]
-[18Apr2025 22:49:18.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Survival Mode]
-[18Apr2025 22:51:41.042] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -5.592725630211476,0.0,8.410775088353603
-[18Apr2025 22:51:41.043] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! -6.667660219003835,0.0,8.908051445899332
-[18Apr2025 22:51:41.043] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -6.285895202193842,0.0,9.46752346451558
-[18Apr2025 22:51:41.044] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! -7.4202965499334255,0.0,9.906881725970834
-[18Apr2025 22:51:41.044] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -6.978226225498247,0.0,10.525036797877306
-[18Apr2025 22:51:41.044] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! -8.174361371266457,0.0,10.906808572248451
-[18Apr2025 22:51:41.045] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -7.6698176488687295,0.0,11.583224823489331
-[18Apr2025 22:51:41.045] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! -8.929686121135319,0.0,11.907702589919836
-[18Apr2025 22:51:41.046] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -8.36075674509749,0.0,12.642007927665986
-[18Apr2025 22:51:41.046] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! -9.686122127972794,0.0,12.9094496527606
-[18Apr2025 22:51:41.046] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -9.051120488787262,0.0,13.701315891136801
-[18Apr2025 22:51:41.047] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! -10.44353826345656,0.0,13.911949101440655
-[18Apr2025 22:51:41.047] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -9.740976771537646,0.0,14.761086780504911
-[18Apr2025 22:51:41.047] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! -11.20181887240642,0.0,14.915112154430972
-[18Apr2025 22:51:41.048] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -10.430385473739477,0.0,15.82126597051456
-[18Apr2025 22:51:41.048] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! -11.962721128711053,0.0,15.91742699908582
-[18Apr2025 22:51:41.048] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -11.119399409897483,0.0,16.88180528169005
-[18Apr2025 22:51:41.049] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! -12.726856765162779,0.0,16.918266054792753
-[18Apr2025 22:51:41.088] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -6.9094598396382025,0.0,10.587768209129536
-[18Apr2025 22:51:41.094] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! -7.578726789100699,0.0,10.006107196080052
-[18Apr2025 22:51:41.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -7.5168630333496935,0.0,11.52344402848405
-[18Apr2025 22:51:41.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! -8.351400420661776,0.0,11.001933124029847
-[18Apr2025 22:51:45.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -0.10086729187446508,-0.34362717616546945,11.175991108523021
-[18Apr2025 22:51:45.311] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -0.252405977954254,-0.36297379799609075,12.396392633527626
-[18Apr2025 22:51:45.311] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -0.4630461266854127,-0.3800375184506919,13.600723986599974
-[18Apr2025 22:51:45.312] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -0.7258137654750385,-0.3950877198916487,14.790881448028017
-[18Apr2025 22:51:45.313] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -1.034888769417023,-0.4083619975625794,15.968337826927609
-[18Apr2025 22:51:45.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -1.3877977684367124,-0.4200699104683423,17.13273305196799
-[18Apr2025 22:51:45.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -1.7793683511149538,-0.43039628965121324,18.285608339304645
-[18Apr2025 22:51:45.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -2.205038450580048,-0.4395041560905071,19.428323041586623
-[18Apr2025 22:51:45.394] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved too quickly! -2.645487583886222,-0.12584506351068114,10.624055456063047
-[18Apr2025 22:54:33.455] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 21370ms or 427 ticks behind
-[18Apr2025 22:56:48.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Herc was on a Roll!]
-[18Apr2025 22:57:35.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Herc was on a Roll!]
-[18Apr2025 22:57:51.266] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.405125403799957
-[18Apr2025 22:57:51.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 1.1611489223350873
-[18Apr2025 22:57:51.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.525266956646874
-[18Apr2025 22:57:51.445] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.5805149564303065
-[18Apr2025 22:57:51.472] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 1.472001092517985
-[18Apr2025 22:57:51.519] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 2.3494978555411308
-[18Apr2025 22:57:51.595] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.583684724264458
-[18Apr2025 22:57:51.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.4815960642188202
-[18Apr2025 22:57:51.669] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 1.0
-[18Apr2025 23:05:36.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 was slain by Hydra
-[18Apr2025 23:05:50.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee was slain by Hydra
-[18Apr2025 23:06:09.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee was slain by Hydra
-[18Apr2025 23:06:10.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [The Twelve Labors of Hercules]
-[18Apr2025 23:10:52.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Pic-A-Nic Basket?]
-[18Apr2025 23:10:57.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Pic-A-Nic Basket?]
-[18Apr2025 23:11:20.553] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.26343372875984983
-[18Apr2025 23:11:20.604] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.7422429535948538
-[18Apr2025 23:11:20.649] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.8139649396778452
-[18Apr2025 23:11:39.928] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece/]: Failed to get element ResourceKey[minecraft:worldgen/processor_list / nova_structures:loot_degradation]
-[18Apr2025 23:11:39.928] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer/]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_163129_(PoolElementStructurePiece.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:57) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:454) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:199) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.server.level.ChunkMap.m_288112_(ChunkMap.java:578) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:269) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:758) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[18Apr2025 23:14:57.652] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[18Apr2025 23:15:02.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 2.399465149268792,0.0,-9.76660666238331
-[18Apr2025 23:15:02.827] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 2.710545591127925,0.0,-10.994249608148493
-[18Apr2025 23:15:02.828] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 3.0232047095802272,0.0,-12.222857991141609
-[18Apr2025 23:15:02.828] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 3.337256220787708,0.0,-13.452317889769802
-[18Apr2025 23:15:02.829] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 3.6525358224052553,0.0,-14.682528825188456
-[18Apr2025 23:15:02.829] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 3.9688985997644863,0.0,-15.913402175055126
-[18Apr2025 23:15:02.830] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 4.286216738127877,0.0,-17.144859774466568
-[18Apr2025 23:15:02.830] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 4.604377504896931,0.0,-18.37683268197543
-[18Apr2025 23:15:02.831] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 4.923281469919786,0.0,-19.609260091226133
-[18Apr2025 23:15:02.831] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 5.242840935802505,0.0,-20.842088371014142
-[18Apr2025 23:15:02.856] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 3.472803963275254,0.0,-13.53521190196443
-[18Apr2025 23:15:02.908] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved too quickly! 3.7934515107672553,0.0,-14.768705596377004
-[18Apr2025 23:15:20.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Tie me to the Mast]
-[18Apr2025 23:17:04.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Sea? Not a Problem]
-[18Apr2025 23:18:30.871] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[18Apr2025 23:19:20.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Monster Hunter]
-[18Apr2025 23:19:48.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [My Name is Nobody]
-[18Apr2025 23:19:55.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [My Name is Nobody]
-[18Apr2025 23:21:00.045] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ICCCeee was kicked for floating a vehicle too long!
-[18Apr2025 23:21:00.046] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ICCCeee lost connection: Disconnected
-[18Apr2025 23:21:00.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee left the game
-[18Apr2025 23:21:00.101] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[18Apr2025 23:21:18.655] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ICCCeee[/127.62.81.79:38613] logged in with entity id 23011 at (-95.02598611431574, 80.84725642204285, 4779.762532462245)
-[18Apr2025 23:21:18.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee joined the game
-[18Apr2025 23:21:18.717] [Server thread/INFO] [Jade/]: Syncing config to ICCCeee (2c4b5a4a-1030-3cc6-bbf6-cc08ce9b3f24)
-[18Apr2025 23:26:54.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]
-[18Apr2025 23:27:11.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Survival Mode]
-[18Apr2025 23:27:37.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Dragonslayer]
-[18Apr2025 23:29:47.703] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/30030, l='ServerLevel[New World]', x=-617.47, y=68.10, z=5919.58]
-[18Apr2025 23:29:47.704] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/30031, l='ServerLevel[New World]', x=-617.34, y=67.85, z=5918.47]
-[18Apr2025 23:30:26.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Diamonds!]
-[18Apr2025 23:32:44.034] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 moved wrongly!
-[18Apr2025 23:34:30.154] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34147, l='ServerLevel[New World]', x=-912.10, y=67.67, z=7051.61]
-[18Apr2025 23:34:30.154] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34148, l='ServerLevel[New World]', x=-912.10, y=67.67, z=7051.61]
-[18Apr2025 23:34:30.155] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34149, l='ServerLevel[New World]', x=-912.10, y=67.67, z=7051.61]
-[18Apr2025 23:34:30.155] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34150, l='ServerLevel[New World]', x=-912.10, y=67.67, z=7051.61]
-[18Apr2025 23:34:30.156] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34151, l='ServerLevel[New World]', x=-912.08, y=55.38, z=7054.01]
-[18Apr2025 23:34:30.156] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34152, l='ServerLevel[New World]', x=-912.08, y=55.38, z=7054.01]
-[18Apr2025 23:34:30.156] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34153, l='ServerLevel[New World]', x=-912.08, y=55.38, z=7054.01]
-[18Apr2025 23:34:30.157] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34154, l='ServerLevel[New World]', x=-912.08, y=55.38, z=7054.01]
-[18Apr2025 23:34:30.157] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/34155, l='ServerLevel[New World]', x=-912.08, y=55.38, z=7054.01]
-[18Apr2025 23:35:24.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Creative Mode]
-[18Apr2025 23:35:40.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Survival Mode]
-[18Apr2025 23:42:43.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Sea? Not a Problem]
-[18Apr2025 23:43:37.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has completed the challenge [The Power of the Sun]
-[18Apr2025 23:45:57.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Stone Age]
-[18Apr2025 23:46:23.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Stone Age]
-[18Apr2025 23:49:46.861] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ICCCeee moved wrongly!
-[18Apr2025 23:52:27.806] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ICCCeee moved wrongly!
-[18Apr2025 23:54:21.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Jungle Fliers]
-[18Apr2025 23:55:50.044] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 was kicked for floating a vehicle too long!
-[18Apr2025 23:55:50.091] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 lost connection: Flying is not enabled on this server
-[18Apr2025 23:55:50.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 left the game
-[18Apr2025 23:56:09.803] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: neroo024[/127.145.253.104:44907] logged in with entity id 50733 at (-728.4173148144665, 70.00692701634767, 6974.190359249845)
-[18Apr2025 23:56:09.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 joined the game
-[18Apr2025 23:56:09.868] [Server thread/INFO] [Jade/]: Syncing config to neroo024 (c024ae1d-d49f-3716-ac45-aebdf81903dd)
-[18Apr2025 23:56:18.391] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 was kicked for floating a vehicle too long!
-[18Apr2025 23:56:18.443] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 lost connection: Flying is not enabled on this server
-[18Apr2025 23:56:18.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 left the game
-[18Apr2025 23:56:29.300] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: neroo024[/127.145.253.104:37109] logged in with entity id 50820 at (-687.4622957172004, 75.90479310852434, 6983.7763478284205)
-[18Apr2025 23:56:29.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 joined the game
-[18Apr2025 23:56:29.361] [Server thread/INFO] [Jade/]: Syncing config to neroo024 (c024ae1d-d49f-3716-ac45-aebdf81903dd)
-[18Apr2025 23:56:45.198] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.35697329299539937
-[18Apr2025 23:56:45.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.38721944304701356
-[18Apr2025 23:56:53.644] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.4856633055873271
-[18Apr2025 23:56:56.142] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 was kicked for floating a vehicle too long!
-[18Apr2025 23:56:56.192] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 lost connection: Flying is not enabled on this server
-[18Apr2025 23:56:56.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 left the game
-[18Apr2025 23:57:01.797] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: neroo024[/127.145.253.104:51807] logged in with entity id 51039 at (-703.462733705017, 89.48740918446286, 6974.760074766462)
-[18Apr2025 23:57:01.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 joined the game
-[18Apr2025 23:57:01.851] [Server thread/INFO] [Jade/]: Syncing config to neroo024 (c024ae1d-d49f-3716-ac45-aebdf81903dd)
-[18Apr2025 23:58:30.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.29016946042497693
-[18Apr2025 23:58:30.752] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.7199112260848324
-[18Apr2025 23:58:30.800] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 1.2447344385781207
-[18Apr2025 23:58:30.851] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 1.852772643674939
-[18Apr2025 23:58:30.902] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.6508582128468561
-[18Apr2025 23:58:30.994] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.5703421140995033
-[18Apr2025 23:58:31.000] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.4993269150043034
-[18Apr2025 23:58:31.050] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.9675000314529143
-[18Apr2025 23:58:31.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 1.3804287201605803
-[18Apr2025 23:58:31.153] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.33272149639390136
-[18Apr2025 23:58:31.206] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.653948633628147
-[18Apr2025 23:58:31.251] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.2518407279942494
+[19Apr2025 00:00:22.819] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[19Apr2025 00:00:22.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[19Apr2025 00:00:22.826] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19Apr2025 00:00:22.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[19Apr2025 00:00:23.378] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[19Apr2025 00:00:24.720] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[19Apr2025 00:00:24.927] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2394 advancements
+[19Apr2025 00:00:24.940] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[19Apr2025 00:00:24.947] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[19Apr2025 00:00:26.205] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[19Apr2025 00:00:26.206] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[19Apr2025 00:00:26.206] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[19Apr2025 00:00:26.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19Apr2025 00:00:26.402] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[19Apr2025 00:00:26.427] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[19Apr2025 00:00:26.513] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19Apr2025 00:00:26.513] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[19Apr2025 00:00:26.514] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19Apr2025 00:00:26.514] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[19Apr2025 00:00:26.533] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[19Apr2025 00:00:26.535] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[19Apr2025 00:00:26.536] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[19Apr2025 00:00:26.727] [Server thread/INFO] [Framework/]: Loading server configs...
+[19Apr2025 00:00:27.392] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[19Apr2025 00:00:27.393] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[19Apr2025 00:00:27.394] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[19Apr2025 00:00:27.633] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[19Apr2025 00:00:33.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19Apr2025 00:00:36.468] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Apr2025 00:00:36.502] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Apr2025 00:00:36.503] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Apr2025 00:00:36.504] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Apr2025 00:00:36.513] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Apr2025 00:00:36.559] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Apr2025 00:00:36.578] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Apr2025 00:00:37.224] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Apr2025 00:00:37.233] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Apr2025 00:00:37.702] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Apr2025 00:00:38.198] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[19Apr2025 00:00:38.689] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5491 ms
+[19Apr2025 00:00:38.690] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.162s)! For help, type "help"
+[19Apr2025 00:00:38.774] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[19Apr2025 00:00:38.782] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[19Apr2025 00:00:38.782] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[19Apr2025 00:00:46.844] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[19Apr2025 00:00:46.920] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ICCCeee[/127.62.81.79:60013] logged in with entity id 42 at (-705.4292428305316, 67.0625, 6977.9013457051105)
+[19Apr2025 00:00:47.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee joined the game
+[19Apr2025 00:00:47.116] [Server thread/INFO] [Jade/]: Syncing config to ICCCeee (2c4b5a4a-1030-3cc6-bbf6-cc08ce9b3f24)
+[19Apr2025 00:01:02.814] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: neroo024[/127.145.253.104:33639] logged in with entity id 274 at (-720.4468628611909, 67.0, 6968.9445169348355)
+[19Apr2025 00:01:02.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 joined the game
+[19Apr2025 00:01:02.995] [Server thread/INFO] [Jade/]: Syncing config to neroo024 (c024ae1d-d49f-3716-ac45-aebdf81903dd)
+[19Apr2025 00:01:17.606] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.7824646073426617
+[19Apr2025 00:01:55.350] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8418046701229872
+[19Apr2025 00:02:01.149] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.4855479932679064
+[19Apr2025 00:02:03.549] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.48397907656235495
+[19Apr2025 00:02:54.154] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8299728250577646
+[19Apr2025 00:03:06.502] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.6461801847084415
+[19Apr2025 00:03:09.802] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.7041685517303324
+[19Apr2025 00:03:10.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8086274782484572
+[19Apr2025 00:03:11.457] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.6872888846696185
+[19Apr2025 00:03:12.311] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8135532206347572
+[19Apr2025 00:03:13.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8291299758621299
+[19Apr2025 00:03:16.098] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8291739519094178
+[19Apr2025 00:03:16.793] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8251296470742102
+[19Apr2025 00:03:17.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8298596038161666
+[19Apr2025 00:03:18.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8303792245754239
+[19Apr2025 00:03:18.901] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.830475907403843
+[19Apr2025 00:03:19.951] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8305061676369223
+[19Apr2025 00:03:20.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8305023503544117
+[19Apr2025 00:03:20.353] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8305020223016891
+[19Apr2025 00:03:20.901] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8305042832315782
+[19Apr2025 00:03:21.998] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8305066885889509
+[19Apr2025 00:03:22.250] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.8305074859907954
+[19Apr2025 00:04:01.337] [Worker-Main-3/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'porting_lib:step_height_addition'
+[19Apr2025 00:04:01.338] [Worker-Main-3/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[19Apr2025 00:04:01.340] [Worker-Main-3/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'porting_lib:step_height_addition'
+[19Apr2025 00:04:01.340] [Worker-Main-3/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[19Apr2025 00:06:12.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Creative Mode]
+[19Apr2025 00:06:43.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Survival Mode]
+[19Apr2025 00:07:45.944] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ICCCeee moved wrongly!
+[19Apr2025 00:07:52.443] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ICCCeee moved wrongly!
+[19Apr2025 00:09:02.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Buck Beak]
