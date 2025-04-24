@@ -3481,3 +3481,8 @@ java.lang.IllegalStateException: Invalid pool element found
 [24Apr2025 21:27:12.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee left the game
 [24Apr2025 21:27:44.385] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
 [24Apr2025 21:27:44.399] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[24Apr2025 21:30:07.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Suit Up]
+[24Apr2025 21:32:44.384] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[24Apr2025 21:32:44.397] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[24Apr2025 21:37:44.382] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[24Apr2025 21:37:44.395] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
