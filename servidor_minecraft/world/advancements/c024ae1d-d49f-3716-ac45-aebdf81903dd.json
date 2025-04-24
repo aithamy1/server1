@@ -608,6 +608,7 @@
       "shrubland": "2025-04-18 22:52:36 +0000",
       "rocky_shrubland": "2025-04-18 23:29:51 +0000",
       "bayou": "2025-04-19 00:05:29 +0000",
+      "erupting_inferno": "2025-04-24 19:51:03 +0000",
       "floodplain": "2025-04-19 00:05:11 +0000",
       "highland": "2025-04-18 22:53:15 +0000",
       "jacaranda_glade": "2025-04-18 23:12:04 +0000",
@@ -615,6 +616,7 @@
       "jade_cliffs": "2025-04-18 23:12:11 +0000",
       "wetland": "2025-04-18 22:56:20 +0000",
       "old_growth_woodland": "2025-04-18 23:36:50 +0000",
+      "crystalline_chasm": "2025-04-24 19:52:07 +0000",
       "field": "2025-04-18 23:22:17 +0000",
       "orchard": "2025-04-18 22:53:21 +0000",
       "overgrown_greens": "2025-04-18 22:52:29 +0000",
@@ -1854,6 +1856,31 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2025-04-24 19:50:30 +0000",
+      "minecraft:basalt_deltas": "2025-04-24 19:51:04 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_helmet": "2025-04-24 19:45:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-04-24 19:50:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_helmet": "2025-04-24 19:45:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2025-04-24 19:39:37 +0000"
@@ -1866,6 +1893,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/rotten_egg": {
+    "criteria": {
+      "bestiary": "2025-04-24 19:49:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2025-04-24 19:39:37 +0000"
@@ -1875,6 +1908,12 @@
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-04-24 19:39:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-04-24 19:50:26 +0000"
     },
     "done": true
   },
@@ -1893,6 +1932,12 @@
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2025-04-24 19:39:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-04-24 19:47:27 +0000"
     },
     "done": true
   },

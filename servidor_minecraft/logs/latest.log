@@ -235,3 +235,13 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.codec.digest.Dig
 [24Apr2025 19:38:31.191] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ICCCeee[/127.156.157.65:50405] logged in with entity id 508 at (-364.4459509344981, 64.9375, -1041.2789080017508)
 [24Apr2025 19:38:31.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee joined the game
 [24Apr2025 19:38:31.330] [Server thread/INFO] [Jade/]: Syncing config to ICCCeee (2c4b5a4a-1030-3cc6-bbf6-cc08ce9b3f24)
+[24Apr2025 19:49:31.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Rotten to the Core]
+[24Apr2025 19:50:26.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [We Need to Go Deeper]
+[24Apr2025 19:50:29.677] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2822ms or 56 ticks behind
+[24Apr2025 19:50:31.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [We Need to Go Deeper]
+[24Apr2025 19:52:11.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved wrongly! 0.2840744761562348
+[24Apr2025 19:52:11.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved wrongly! 0.7470087656798796
+[24Apr2025 19:52:11.868] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rhysen (vehicle of neroo024) moved wrongly! 1.2037786370935066
+[24Apr2025 19:55:42.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.3185679456224477
+[24Apr2025 19:55:42.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.5989542390713893
+[24Apr2025 19:55:42.422] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.8553036223488135
