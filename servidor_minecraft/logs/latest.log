@@ -245,3 +245,23 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.codec.digest.Dig
 [24Apr2025 19:55:42.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.3185679456224477
 [24Apr2025 19:55:42.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.5989542390713893
 [24Apr2025 19:55:42.422] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.8553036223488135
+[24Apr2025 19:58:26.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Concrete Halls]
+[24Apr2025 19:59:44.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [A Terrible Fortress]
+[24Apr2025 20:07:12.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Teleported ICCCeee to neroo024]
+[24Apr2025 20:08:30.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Into Fire]
+[24Apr2025 20:11:43.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Creative Mode]
+[24Apr2025 20:12:09.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Survival Mode]
+[24Apr2025 20:13:54.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [War Pigs]
+[24Apr2025 20:14:01.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Cover Me with Diamonds]
+[24Apr2025 20:14:13.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Who is Cutting Onions?]
+[24Apr2025 20:15:40.092] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.6941711002654642
+[24Apr2025 20:15:40.139] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 1.4877096049229976
+[24Apr2025 20:15:40.222] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.6683811260337507
+[24Apr2025 20:15:40.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.5857928126229694
+[24Apr2025 20:15:40.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 1.1302625678919185
+[24Apr2025 20:15:40.373] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.4487024890729572
+[24Apr2025 20:15:40.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.3920362548236085
+[24Apr2025 20:15:40.452] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.3420566362156592
+[24Apr2025 20:15:40.519] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.29797461260346836
+[24Apr2025 20:15:40.572] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.2590942677774706
+[24Apr2025 20:15:40.586] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sylnara (vehicle of ICCCeee) moved wrongly! 0.5154159064927057
