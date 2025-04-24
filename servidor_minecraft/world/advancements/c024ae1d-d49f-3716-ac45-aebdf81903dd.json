@@ -31,7 +31,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:mushroom_fields": "2025-04-24 21:03:01 +0000",
+      "minecraft:taiga": "2025-04-24 20:58:56 +0000",
       "minecraft:deep_ocean": "2025-04-18 23:14:23 +0000",
+      "minecraft:frozen_river": "2025-04-24 20:51:22 +0000",
       "minecraft:cherry_grove": "2025-04-18 23:12:16 +0000",
       "minecraft:birch_forest": "2025-04-18 22:52:44 +0000",
       "minecraft:windswept_hills": "2025-04-18 22:53:16 +0000",
@@ -42,14 +45,22 @@
       "minecraft:river": "2025-04-18 21:24:04 +0000",
       "minecraft:lukewarm_ocean": "2025-04-18 23:35:38 +0000",
       "minecraft:stony_shore": "2025-04-18 23:12:54 +0000",
+      "minecraft:snowy_plains": "2025-04-24 20:44:50 +0000",
+      "minecraft:snowy_taiga": "2025-04-24 20:55:57 +0000",
       "minecraft:swamp": "2025-04-18 21:13:29 +0000",
+      "minecraft:grove": "2025-04-24 21:07:30 +0000",
       "minecraft:cold_ocean": "2025-04-18 22:55:45 +0000",
       "minecraft:forest": "2025-04-18 22:51:46 +0000",
       "minecraft:deep_cold_ocean": "2025-04-18 22:55:46 +0000",
+      "minecraft:frozen_ocean": "2025-04-24 20:44:34 +0000",
+      "minecraft:deep_frozen_ocean": "2025-04-24 20:43:59 +0000",
       "minecraft:ocean": "2025-04-18 22:53:29 +0000",
       "minecraft:jungle": "2025-04-19 00:14:08 +0000",
+      "minecraft:snowy_beach": "2025-04-24 20:53:31 +0000",
       "minecraft:windswept_savanna": "2025-04-19 00:14:34 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-04-24 21:01:31 +0000",
       "minecraft:old_growth_birch_forest": "2025-04-18 23:26:22 +0000",
+      "minecraft:meadow": "2025-04-24 21:07:31 +0000",
       "minecraft:windswept_gravelly_hills": "2025-04-18 23:09:15 +0000",
       "minecraft:savanna": "2025-04-19 00:14:36 +0000",
       "minecraft:plains": "2025-04-18 21:13:39 +0000"
@@ -604,8 +615,10 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "muskeg": "2025-04-24 20:44:38 +0000",
       "woodland": "2025-04-19 00:05:40 +0000",
       "shrubland": "2025-04-18 22:52:36 +0000",
+      "snowblossom_grove": "2025-04-24 20:55:38 +0000",
       "rocky_shrubland": "2025-04-18 23:29:51 +0000",
       "bayou": "2025-04-19 00:05:29 +0000",
       "erupting_inferno": "2025-04-24 19:51:03 +0000",
@@ -628,14 +641,17 @@
       "dune_beach": "2025-04-18 22:52:09 +0000",
       "seasonal_forest": "2025-04-18 23:10:31 +0000",
       "volcano": "2025-04-19 00:05:42 +0000",
+      "pasture": "2025-04-24 21:00:33 +0000",
       "volcanic_plains": "2025-04-18 23:33:12 +0000",
       "lavender_field": "2025-04-18 23:13:22 +0000",
       "grassland": "2025-04-18 23:32:08 +0000",
       "prairie": "2025-04-18 23:11:53 +0000",
+      "tundra": "2025-04-24 20:46:10 +0000",
       "gravel_beach": "2025-04-18 22:56:19 +0000",
       "undergrowth": "2025-04-24 20:06:42 +0000",
       "rainforest": "2025-04-19 00:05:13 +0000",
-      "crag": "2025-04-18 23:33:55 +0000"
+      "crag": "2025-04-18 23:33:55 +0000",
+      "snowy_maple_woods": "2025-04-24 20:53:18 +0000"
     },
     "done": false
   },
@@ -816,8 +832,11 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2025-04-24 20:08:29 +0000",
+      "minecraft:pillager": "2025-04-24 21:04:09 +0000",
       "minecraft:skeleton": "2025-04-18 23:44:02 +0000",
       "minecraft:ghast": "2025-04-24 19:54:08 +0000",
+      "minecraft:vindicator": "2025-04-24 21:06:20 +0000",
+      "minecraft:spider": "2025-04-24 21:06:19 +0000",
       "minecraft:wither_skeleton": "2025-04-24 20:26:55 +0000",
       "minecraft:zombie": "2025-04-18 23:19:20 +0000"
     },
@@ -1885,6 +1904,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-04-24 20:38:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2025-04-24 20:27:13 +0000"
@@ -1991,6 +2016,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-04-24 20:45:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2025-04-24 20:08:30 +0000"
@@ -2000,6 +2031,12 @@
   "minecraft:recipes/building_blocks/red_nether_brick_stairs_from_red_nether_bricks_stonecutting": {
     "criteria": {
       "has_red_nether_bricks": "2025-04-24 20:26:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-04-24 21:06:46 +0000"
     },
     "done": true
   },
@@ -2024,6 +2061,18 @@
   "minecraft:recipes/redstone/crimson_pressure_plate": {
     "criteria": {
       "has_planks": "2025-04-24 20:27:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-04-24 20:45:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-04-24 20:45:48 +0000"
     },
     "done": true
   },
@@ -2081,6 +2130,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2025-04-24 20:58:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2025-04-24 20:29:34 +0000"
@@ -2099,6 +2154,18 @@
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/ash": {
+    "criteria": {
+      "has_item": "2025-04-24 21:04:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_the_recipe": "2025-04-24 20:57:07 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/decorations/blackstone_bulb": {
     "criteria": {
       "has_blackstone": "2025-04-24 20:14:16 +0000"
@@ -2114,6 +2181,12 @@
   "iceandfire:iceandfire/rotten_egg": {
     "criteria": {
       "bestiary": "2025-04-24 19:49:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2025-04-24 20:56:30 +0000"
     },
     "done": true
   },
@@ -2177,6 +2250,12 @@
     },
     "done": true
   },
+  "nova_structures:root": {
+    "criteria": {
+      "nova_structures:adventure/find_tavern": "2025-04-24 20:56:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
       "has_basalt": "2025-04-24 20:25:05 +0000"
@@ -2186,6 +2265,12 @@
   "biomesoplenty:recipes/decorations/blackstone_spines": {
     "criteria": {
       "has_blackstone": "2025-04-24 20:14:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-04-24 20:37:42 +0000"
     },
     "done": true
   },
@@ -2204,6 +2289,12 @@
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-04-24 19:39:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-04-24 20:37:42 +0000"
     },
     "done": true
   },
@@ -2231,6 +2322,12 @@
     },
     "done": true
   },
+  "nova_structures:adventure/find_tavern": {
+    "criteria": {
+      "nova_structures:tavern_snowy": "2025-04-24 20:56:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2025-04-24 19:50:26 +0000"
@@ -2240,6 +2337,12 @@
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-04-24 19:39:37 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/tavern_quest": {
+    "criteria": {
+      "open_tavern_chest": "2025-04-24 20:56:13 +0000"
     },
     "done": true
   },
@@ -2405,6 +2508,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-04-24 20:56:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2025-04-24 20:27:13 +0000"
@@ -2456,6 +2565,12 @@
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2025-04-24 20:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-04-24 20:37:42 +0000"
     },
     "done": true
   },
