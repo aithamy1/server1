@@ -3486,3 +3486,19 @@ java.lang.IllegalStateException: Invalid pool element found
 [24Apr2025 21:32:44.397] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
 [24Apr2025 21:37:44.382] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
 [24Apr2025 21:37:44.395] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[24Apr2025 21:42:44.382] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[24Apr2025 21:42:44.394] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[24Apr2025 21:47:44.380] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[24Apr2025 21:47:44.393] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[24Apr2025 21:49:36.866] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.3273938559802621
+[24Apr2025 21:49:38.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.5731057553267546
+[24Apr2025 21:49:52.503] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.32501730152705066
+[24Apr2025 21:50:18.367] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.28778064301757944
+[24Apr2025 21:50:18.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.38253784279575564
+[24Apr2025 21:51:12.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.3868849106784401
+[24Apr2025 21:51:12.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.6679471643659283
+[24Apr2025 21:52:44.381] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[24Apr2025 21:52:44.394] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[24Apr2025 21:52:51.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.7710644849611297
+[24Apr2025 21:57:44.381] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[24Apr2025 21:57:44.393] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
