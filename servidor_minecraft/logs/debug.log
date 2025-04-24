@@ -3040,3 +3040,17 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [24Apr2025 20:25:48.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Port o Magma]
 [24Apr2025 20:27:30.527] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
 [24Apr2025 20:27:30.541] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[24Apr2025 20:32:30.528] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[24Apr2025 20:32:30.541] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[24Apr2025 20:32:40.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]
+[24Apr2025 20:32:49.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Creative Mode]
+[24Apr2025 20:33:37.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Survival Mode]
+[24Apr2025 20:34:09.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Survival Mode]
+[24Apr2025 20:36:00.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]
+[24Apr2025 20:36:11.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Ice Bucket Challenge]
+[24Apr2025 20:36:41.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Survival Mode]
+[24Apr2025 20:37:08.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has completed the challenge [Subspace Bubble]
+[24Apr2025 20:37:11.309] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10554ms or 211 ticks behind
+[24Apr2025 20:37:13.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has completed the challenge [Subspace Bubble]
+[24Apr2025 20:37:41.098] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[24Apr2025 20:37:41.111] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
