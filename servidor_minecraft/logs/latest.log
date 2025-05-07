@@ -1151,3 +1151,8 @@ java.lang.IllegalStateException: Invalid pool element found
 [07May2025 21:08:22.700] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
 [07May2025 21:08:23.649] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 moved too quickly! -445.903283441967,12.265900001525878,4571.623841786673
 [07May2025 21:08:23.680] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3331ms or 66 ticks behind
+[07May2025 21:12:20.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Getting an Upgrade]
+[07May2025 21:16:01.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 was doomed to fall by Ender Dragon
+[07May2025 21:16:10.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]
+[07May2025 21:16:17.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Teleported neroo024 to ICCCeee]
+[07May2025 21:18:13.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Survival Mode]
