@@ -3209,6 +3209,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/redstone/maple_button": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/armor_silver_boots": {
     "criteria": {
       "has_item": "2025-05-07 19:52:01 +0000"
@@ -3233,6 +3239,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/decorations/maple_fence": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/magenta_dye_from_wildflower": {
     "criteria": {
       "has_wildflower": "2025-05-07 19:38:27 +0000"
@@ -3251,9 +3263,27 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/redstone/maple_door": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/kill_siren": {
     "criteria": {
       "killed_fire_dragon": "2025-05-07 20:20:08 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_wood": {
+    "criteria": {
+      "has_log": "2025-05-07 20:33:48 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/maple_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
     },
     "done": true
   },
@@ -3263,15 +3293,51 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/maple_slab": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/armor_silver_leggings": {
     "criteria": {
       "has_item": "2025-05-07 19:52:01 +0000"
     },
     "done": true
   },
+  "biomesoplenty:recipes/decorations/maple_sign": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/tame_cockatrice": {
     "criteria": {
       "tame_rat": "2025-05-07 19:22:44 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/maple_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_planks": {
+    "criteria": {
+      "has_logs": "2025-05-07 20:33:48 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/maple_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
     },
     "done": true
   },
