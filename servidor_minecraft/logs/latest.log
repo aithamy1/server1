@@ -1134,3 +1134,7 @@ java.lang.IllegalStateException: Invalid pool element found
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[07May2025 20:45:13.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Poseidon, God of the Seas]
+[07May2025 20:48:40.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]
+[07May2025 20:48:56.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Survival Mode]
+[07May2025 20:49:47.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]

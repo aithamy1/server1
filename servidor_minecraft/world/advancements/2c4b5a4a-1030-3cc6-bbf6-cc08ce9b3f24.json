@@ -3233,6 +3233,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/armor_red_chestplate": {
+    "criteria": {
+      "has_item": "2025-05-07 20:38:43 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/armor_silver_helmet": {
     "criteria": {
       "has_item": "2025-05-07 19:52:01 +0000"
@@ -3254,6 +3260,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-05-07 20:07:53 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/use_tide_trident": {
+    "criteria": {
+      "shot_arrow": "2025-05-07 20:45:13 +0000"
     },
     "done": true
   },
@@ -3311,6 +3323,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/armor_red_helmet": {
+    "criteria": {
+      "has_item": "2025-05-07 20:38:43 +0000"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/tame_cockatrice": {
     "criteria": {
       "tame_rat": "2025-05-07 19:22:44 +0000"
@@ -3320,6 +3338,18 @@
   "biomesoplenty:recipes/redstone/maple_trapdoor": {
     "criteria": {
       "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonscales_red_to_dragonscale_red": {
+    "criteria": {
+      "has_dragonscales_red": "2025-05-07 20:38:43 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_red_boots": {
+    "criteria": {
+      "has_item": "2025-05-07 20:38:43 +0000"
     },
     "done": true
   },
@@ -3344,6 +3374,12 @@
   "iceandfire:recipes/building_blocks/dragonscales_silver_to_dragonscale_silver": {
     "criteria": {
       "has_dragonscales_silver": "2025-05-07 19:52:01 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_red_leggings": {
+    "criteria": {
+      "has_item": "2025-05-07 20:38:43 +0000"
     },
     "done": true
   },
