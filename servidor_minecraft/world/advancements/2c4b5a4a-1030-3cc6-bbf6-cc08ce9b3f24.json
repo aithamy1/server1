@@ -46,7 +46,9 @@
       "minecraft:lukewarm_ocean": "2025-04-18 23:36:41 +0000",
       "minecraft:stony_shore": "2025-04-18 23:12:55 +0000",
       "minecraft:snowy_plains": "2025-04-24 20:44:58 +0000",
+      "minecraft:snowy_taiga": "2025-05-07 19:55:13 +0000",
       "minecraft:swamp": "2025-04-18 03:10:33 +0000",
+      "minecraft:grove": "2025-05-07 19:55:08 +0000",
       "minecraft:cold_ocean": "2025-04-18 22:53:31 +0000",
       "minecraft:forest": "2025-04-18 03:11:34 +0000",
       "minecraft:deep_cold_ocean": "2025-04-18 22:53:34 +0000",
@@ -837,6 +839,7 @@
       "minecraft:skeleton": "2025-04-18 23:07:56 +0000",
       "minecraft:ghast": "2025-04-24 19:52:43 +0000",
       "minecraft:hoglin": "2025-04-24 20:11:43 +0000",
+      "minecraft:guardian": "2025-05-07 19:43:46 +0000",
       "minecraft:spider": "2025-04-18 23:48:10 +0000",
       "minecraft:creeper": "2025-04-18 23:13:38 +0000",
       "minecraft:zombified_piglin": "2025-04-24 20:23:44 +0000",
@@ -1025,6 +1028,7 @@
       "cooked_porkchop": "2025-04-18 21:23:50 +0000",
       "cooked_mutton": "2025-04-27 19:30:04 +0000",
       "bread": "2025-04-27 19:51:57 +0000",
+      "golden_apple": "2025-05-07 20:01:55 +0000",
       "cookie": "2025-04-19 00:15:42 +0000",
       "carrot": "2025-04-24 19:50:23 +0000"
     },
@@ -1089,6 +1093,7 @@
       "marsh": "2025-04-18 22:53:24 +0000",
       "jade_cliffs": "2025-04-18 23:12:14 +0000",
       "wetland": "2025-04-18 22:56:21 +0000",
+      "cold_desert": "2025-05-07 19:57:26 +0000",
       "old_growth_woodland": "2025-04-18 23:43:14 +0000",
       "crystalline_chasm": "2025-04-24 19:52:08 +0000",
       "withered_abyss": "2025-04-24 20:04:07 +0000",
@@ -1106,6 +1111,7 @@
       "pasture": "2025-04-18 23:41:33 +0000",
       "volcanic_plains": "2025-04-18 23:32:21 +0000",
       "lavender_field": "2025-04-18 23:13:21 +0000",
+      "fir_clearing": "2025-05-07 19:58:44 +0000",
       "pumpkin_patch": "2025-04-18 23:22:14 +0000",
       "prairie": "2025-04-18 23:11:54 +0000",
       "grassland": "2025-04-18 23:32:11 +0000",
@@ -3200,9 +3206,69 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/armor_silver_boots": {
+    "criteria": {
+      "has_item": "2025-05-07 19:52:01 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_silver_chestplate": {
+    "criteria": {
+      "has_item": "2025-05-07 19:52:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-05-07 19:31:24 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_silver_helmet": {
+    "criteria": {
+      "has_item": "2025-05-07 19:52:01 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/magenta_dye_from_wildflower": {
+    "criteria": {
+      "has_wildflower": "2025-05-07 19:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-05-07 19:25:21 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/white_dye_from_tall_white_lavender": {
+    "criteria": {
+      "has_tall_white_lavender": "2025-05-07 19:38:46 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_silver_leggings": {
+    "criteria": {
+      "has_item": "2025-05-07 19:52:01 +0000"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/tame_cockatrice": {
     "criteria": {
       "tame_rat": "2025-05-07 19:22:44 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonscales_silver_to_dragonscale_silver": {
+    "criteria": {
+      "has_dragonscales_silver": "2025-05-07 19:52:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-05-07 19:31:24 +0000"
     },
     "done": true
   },
