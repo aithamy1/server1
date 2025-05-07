@@ -843,6 +843,7 @@
       "minecraft:spider": "2025-04-18 23:48:10 +0000",
       "minecraft:creeper": "2025-04-18 23:13:38 +0000",
       "minecraft:zombified_piglin": "2025-04-24 20:23:44 +0000",
+      "minecraft:ender_dragon": "2025-05-07 21:23:04 +0000",
       "minecraft:enderman": "2025-04-18 21:16:53 +0000",
       "minecraft:zombie": "2025-04-18 23:13:04 +0000",
       "minecraft:drowned": "2025-05-07 20:21:35 +0000",
@@ -3221,9 +3222,21 @@
     },
     "done": true
   },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2025-05-07 21:23:04 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/armor_silver_boots": {
     "criteria": {
       "has_item": "2025-05-07 19:52:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2025-05-07 21:24:42 +0000"
     },
     "done": true
   },

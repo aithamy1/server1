@@ -3309,6 +3309,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-05-07 21:24:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2025-05-07 20:38:18 +0000"
@@ -3324,6 +3330,12 @@
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2025-05-07 19:40:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2025-05-07 21:24:44 +0000"
     },
     "done": true
   },
@@ -3435,6 +3447,18 @@
     },
     "done": true
   },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-05-07 21:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-05-07 21:24:44 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/tide_deepblue_leggings": {
     "criteria": {
       "has_item": "2025-05-07 20:43:26 +0000"
@@ -3468,6 +3492,18 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-05-07 20:38:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-05-07 21:24:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-05-07 21:24:44 +0000"
     },
     "done": true
   },
