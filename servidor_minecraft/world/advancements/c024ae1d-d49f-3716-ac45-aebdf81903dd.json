@@ -3290,6 +3290,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/pixie_wand": {
+    "criteria": {
+      "bestiary": "2025-05-07 20:50:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-05-07 19:46:31 +0000"
@@ -3341,6 +3347,18 @@
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2025-05-07 20:38:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2025-05-07 20:53:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2025-05-07 20:53:25 +0000"
     },
     "done": true
   },

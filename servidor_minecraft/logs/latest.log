@@ -1138,3 +1138,16 @@ java.lang.IllegalStateException: Invalid pool element found
 [07May2025 20:48:40.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]
 [07May2025 20:48:56.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Survival Mode]
 [07May2025 20:49:47.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]
+[07May2025 20:50:07.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Survival Mode]
+[07May2025 20:50:26.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Where Is My Mind?]
+[07May2025 20:55:16.134] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of neroo024) moved wrongly! 0.5263550346373853
+[07May2025 20:59:29.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Where Is My Mind?]
+[07May2025 21:06:17.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]
+[07May2025 21:06:25.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Survival Mode]
+[07May2025 21:07:04.013] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=563, y=36, z=-4568} BlockPos{x=563, y=35, z=-4567}
+[07May2025 21:08:20.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [The End?]
+[07May2025 21:08:22.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [The End?]
+[07May2025 21:08:22.699] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
+[07May2025 21:08:22.700] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
+[07May2025 21:08:23.649] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: neroo024 moved too quickly! -445.903283441967,12.265900001525878,4571.623841786673
+[07May2025 21:08:23.680] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3331ms or 66 ticks behind

@@ -3215,6 +3215,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/pixie_wand": {
+    "criteria": {
+      "bestiary": "2025-05-07 20:59:29 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/armor_silver_boots": {
     "criteria": {
       "has_item": "2025-05-07 19:52:01 +0000"
@@ -3305,6 +3311,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-05-07 21:01:22 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/maple_slab": {
     "criteria": {
       "has_planks": "2025-05-07 20:33:50 +0000"
@@ -3326,6 +3338,12 @@
   "iceandfire:recipes/combat/armor_red_helmet": {
     "criteria": {
       "has_item": "2025-05-07 20:38:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_the_recipe": "2025-05-07 21:01:27 +0000"
     },
     "done": true
   },
