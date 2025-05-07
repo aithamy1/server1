@@ -845,6 +845,7 @@
       "minecraft:zombified_piglin": "2025-04-24 20:23:44 +0000",
       "minecraft:enderman": "2025-04-18 21:16:53 +0000",
       "minecraft:zombie": "2025-04-18 23:13:04 +0000",
+      "minecraft:drowned": "2025-05-07 20:21:35 +0000",
       "minecraft:zombie_villager": "2025-04-24 20:45:57 +0000"
     },
     "done": false
@@ -1095,6 +1096,7 @@
       "wetland": "2025-04-18 22:56:21 +0000",
       "cold_desert": "2025-05-07 19:57:26 +0000",
       "old_growth_woodland": "2025-04-18 23:43:14 +0000",
+      "maple_woods": "2025-05-07 20:12:58 +0000",
       "crystalline_chasm": "2025-04-24 19:52:08 +0000",
       "withered_abyss": "2025-04-24 20:04:07 +0000",
       "orchard": "2025-04-18 22:53:22 +0000",
@@ -1102,6 +1104,7 @@
       "overgrown_greens": "2025-04-18 22:52:32 +0000",
       "mediterranean_forest": "2025-04-18 23:44:09 +0000",
       "coniferous_forest": "2025-04-18 23:10:36 +0000",
+      "forested_field": "2025-05-07 20:15:25 +0000",
       "redwood_forest": "2025-04-18 22:52:21 +0000",
       "visceral_heap": "2025-04-24 19:56:49 +0000",
       "aspen_glade": "2025-04-19 00:23:09 +0000",
@@ -3236,9 +3239,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-05-07 20:07:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_item_frame": "2025-05-07 19:25:21 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_siren": {
+    "criteria": {
+      "killed_fire_dragon": "2025-05-07 20:20:08 +0000"
     },
     "done": true
   },
