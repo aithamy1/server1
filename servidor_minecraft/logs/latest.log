@@ -1164,3 +1164,11 @@ java.lang.IllegalStateException: Invalid pool element found
 [07May2025 21:32:40.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ICCCeee has made the advancement [Ice Bucket Challenge]
 [07May2025 21:35:41.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Ender Distancing]
 [07May2025 21:35:44.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Capsid-19]
+[07May2025 21:41:56.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Teleported neroo024 to ICCCeee]
+[07May2025 21:42:04.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 fell out of the world
+[07May2025 21:43:07.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [neroo024: Set own game mode to Creative Mode]
+[07May2025 21:43:28.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Creative Mode]
+[07May2025 21:44:41.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: neroo024 has made the advancement [Dragonslayer]
+[07May2025 21:46:50.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Survival Mode]
+[07May2025 21:47:56.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Teleported ICCCeee to neroo024]
+[07May2025 21:49:23.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ICCCeee: Set own game mode to Creative Mode]
