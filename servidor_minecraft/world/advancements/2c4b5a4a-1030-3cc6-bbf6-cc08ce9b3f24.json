@@ -1030,6 +1030,7 @@
     "criteria": {
       "cooked_porkchop": "2025-04-18 21:23:50 +0000",
       "cooked_mutton": "2025-04-27 19:30:04 +0000",
+      "apple": "2025-05-07 22:01:48 +0000",
       "bread": "2025-04-27 19:51:57 +0000",
       "golden_apple": "2025-05-07 20:01:55 +0000",
       "cookie": "2025-04-19 00:15:42 +0000",
@@ -3211,111 +3212,9 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/maple_button": {
+  "iceandfire:iceandfire/tame_cockatrice": {
     "criteria": {
-      "has_planks": "2025-05-07 20:33:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2025-05-07 21:31:25 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/pixie_wand": {
-    "criteria": {
-      "bestiary": "2025-05-07 20:59:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
-    "criteria": {
-      "has_end_stone_bricks": "2025-05-07 21:31:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/kill_dragon": {
-    "criteria": {
-      "killed_dragon": "2025-05-07 21:23:04 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/armor_silver_boots": {
-    "criteria": {
-      "has_item": "2025-05-07 19:52:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_slab": {
-    "criteria": {
-      "has_purpur_block": "2025-05-07 21:28:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_egg": {
-    "criteria": {
-      "dragon_egg": "2025-05-07 21:24:42 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/armor_silver_chestplate": {
-    "criteria": {
-      "has_item": "2025-05-07 19:52:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2025-05-07 21:09:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2025-05-07 19:31:24 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/armor_red_chestplate": {
-    "criteria": {
-      "has_item": "2025-05-07 20:38:43 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/armor_silver_helmet": {
-    "criteria": {
-      "has_item": "2025-05-07 19:52:01 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/maple_fence": {
-    "criteria": {
-      "has_planks": "2025-05-07 20:33:50 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/misc/magenta_dye_from_wildflower": {
-    "criteria": {
-      "has_wildflower": "2025-05-07 19:38:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2025-05-07 20:07:53 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/use_tide_trident": {
-    "criteria": {
-      "shot_arrow": "2025-05-07 20:45:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_bricks": {
-    "criteria": {
-      "has_end_stone": "2025-05-07 21:09:04 +0000"
+      "tame_rat": "2025-05-07 19:22:44 +0000"
     },
     "done": true
   },
@@ -3325,33 +3224,21 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/maple_door": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_planks": "2025-05-07 20:33:50 +0000"
+      "has_bone_meal": "2025-05-07 19:31:24 +0000"
     },
     "done": true
   },
-  "iceandfire:iceandfire/kill_siren": {
+  "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "killed_fire_dragon": "2025-05-07 20:20:08 +0000"
+      "has_bone_meal": "2025-05-07 19:31:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/end_stone_brick_wall": {
+  "biomesoplenty:recipes/misc/magenta_dye_from_wildflower": {
     "criteria": {
-      "has_end_stone_bricks": "2025-05-07 21:31:25 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/maple_wood": {
-    "criteria": {
-      "has_log": "2025-05-07 20:33:48 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/maple_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-05-07 20:33:50 +0000"
+      "has_wildflower": "2025-05-07 19:38:27 +0000"
     },
     "done": true
   },
@@ -3361,15 +3248,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/coal_block": {
+  "iceandfire:recipes/combat/armor_silver_boots": {
     "criteria": {
-      "has_coal": "2025-05-07 21:01:22 +0000"
+      "has_item": "2025-05-07 19:52:01 +0000"
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/maple_slab": {
+  "iceandfire:recipes/combat/armor_silver_chestplate": {
     "criteria": {
-      "has_planks": "2025-05-07 20:33:50 +0000"
+      "has_item": "2025-05-07 19:52:01 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_silver_helmet": {
+    "criteria": {
+      "has_item": "2025-05-07 19:52:01 +0000"
     },
     "done": true
   },
@@ -3379,9 +3272,63 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_pillar": {
+  "iceandfire:recipes/building_blocks/dragonscales_silver_to_dragonscale_silver": {
     "criteria": {
-      "has_purpur_block": "2025-05-07 21:28:26 +0000"
+      "has_dragonscales_silver": "2025-05-07 19:52:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-05-07 20:07:53 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_siren": {
+    "criteria": {
+      "killed_fire_dragon": "2025-05-07 20:20:08 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_wood": {
+    "criteria": {
+      "has_log": "2025-05-07 20:33:48 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_planks": {
+    "criteria": {
+      "has_logs": "2025-05-07 20:33:48 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/maple_button": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/maple_fence": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/maple_door": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/maple_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_slab": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
     },
     "done": true
   },
@@ -3391,27 +3338,33 @@
     },
     "done": true
   },
-  "iceandfire:recipes/combat/armor_red_helmet": {
+  "biomesoplenty:recipes/redstone/maple_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/maple_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-07 20:33:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_red_chestplate": {
     "criteria": {
       "has_item": "2025-05-07 20:38:43 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/torch": {
+  "iceandfire:recipes/combat/armor_red_helmet": {
     "criteria": {
-      "has_the_recipe": "2025-05-07 21:01:27 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/tame_cockatrice": {
-    "criteria": {
-      "tame_rat": "2025-05-07 19:22:44 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/maple_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-05-07 20:33:50 +0000"
+      "has_item": "2025-05-07 20:38:43 +0000"
     },
     "done": true
   },
@@ -3427,81 +3380,33 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/maple_planks": {
-    "criteria": {
-      "has_logs": "2025-05-07 20:33:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2025-05-07 21:31:25 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/maple_stairs": {
-    "criteria": {
-      "has_planks": "2025-05-07 20:33:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2025-05-07 21:31:25 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/maple_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-05-07 20:33:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2025-05-07 21:28:08 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2025-05-07 21:32:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2025-05-07 21:09:04 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/building_blocks/dragonscales_silver_to_dragonscale_silver": {
-    "criteria": {
-      "has_dragonscales_silver": "2025-05-07 19:52:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_stairs": {
-    "criteria": {
-      "has_purpur_block": "2025-05-07 21:28:26 +0000"
-    },
-    "done": true
-  },
   "iceandfire:recipes/combat/armor_red_leggings": {
     "criteria": {
       "has_item": "2025-05-07 20:38:43 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+  "iceandfire:iceandfire/use_tide_trident": {
     "criteria": {
-      "has_purpur_block": "2025-05-07 21:28:26 +0000"
+      "shot_arrow": "2025-05-07 20:45:13 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+  "iceandfire:iceandfire/pixie_wand": {
     "criteria": {
-      "has_end_stone_bricks": "2025-05-07 21:31:25 +0000"
+      "bestiary": "2025-05-07 20:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-05-07 21:01:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_the_recipe": "2025-05-07 21:01:27 +0000"
     },
     "done": true
   },
@@ -3511,15 +3416,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+  "minecraft:story/enter_the_end": {
     "criteria": {
-      "has_purpur_block": "2025-05-07 21:28:26 +0000"
+      "entered_end": "2025-05-07 21:08:20 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
     "criteria": {
-      "has_obsidian": "2025-05-07 21:32:40 +0000"
+      "has_end_stone": "2025-05-07 21:09:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2025-05-07 21:09:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-05-07 21:09:04 +0000"
     },
     "done": true
   },
@@ -3535,15 +3452,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/shulker_box": {
+  "minecraft:end/kill_dragon": {
     "criteria": {
-      "has_shulker_shell": "2025-05-07 21:29:18 +0000"
+      "killed_dragon": "2025-05-07 21:23:04 +0000"
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "minecraft:end/dragon_egg": {
     "criteria": {
-      "entered_end": "2025-05-07 21:08:20 +0000"
+      "dragon_egg": "2025-05-07 21:24:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-05-07 21:28:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2025-05-07 21:28:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2025-05-07 21:28:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2025-05-07 21:28:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-05-07 21:28:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-05-07 21:28:26 +0000"
     },
     "done": true
   },
@@ -3553,9 +3506,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "minecraft:recipes/decorations/shulker_box": {
     "criteria": {
-      "has_bone_meal": "2025-05-07 19:31:24 +0000"
+      "has_shulker_shell": "2025-05-07 21:29:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-05-07 21:31:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-05-07 21:31:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-05-07 21:31:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-05-07 21:31:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-05-07 21:31:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-05-07 21:31:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-05-07 21:32:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-05-07 21:32:40 +0000"
     },
     "done": true
   },

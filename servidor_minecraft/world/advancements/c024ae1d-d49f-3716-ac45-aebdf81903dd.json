@@ -3292,21 +3292,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "has_end_stone_brick": "2025-05-07 21:40:41 +0000"
+      "diamond_boots": "2025-05-07 19:25:08 +0000"
     },
     "done": true
   },
-  "iceandfire:iceandfire/pixie_wand": {
+  "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
-      "bestiary": "2025-05-07 20:50:26 +0000"
+      "has_beetroot": "2025-05-07 19:40:33 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
-      "has_end_stone_bricks": "2025-05-07 21:40:41 +0000"
+      "has_beetroot": "2025-05-07 19:40:33 +0000"
     },
     "done": true
   },
@@ -3316,31 +3316,91 @@
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/enderiophage": {
-    "criteria": {
-      "killed_by": "2025-05-07 21:35:41 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-05-07 19:46:31 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_slab": {
+  "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
-      "has_purpur_block": "2025-05-07 21:28:30 +0000"
+      "has_planks": "2025-05-07 19:46:31 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
-      "has_end_stone": "2025-05-07 21:24:44 +0000"
+      "has_planks": "2025-05-07 19:46:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-07 19:46:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-05-07 19:46:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-05-07 19:46:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-05-07 19:46:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-05-07 19:46:31 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/silver_nugget_to_silver_ingot": {
+    "criteria": {
+      "has_silver_nugget": "2025-05-07 19:51:16 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_ice_spikes": {
+    "criteria": {
+      "has_item": "2025-05-07 19:51:18 +0000"
     },
     "done": true
   },
   "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-05-07 20:38:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-05-07 20:38:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-05-07 20:38:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-05-07 20:38:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-05-07 20:38:18 +0000"
     },
@@ -3352,9 +3412,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/beetroot_soup": {
+  "iceandfire:recipes/combat/tide_deepblue_chestplate": {
     "criteria": {
-      "has_beetroot": "2025-05-07 19:40:33 +0000"
+      "has_item": "2025-05-07 20:43:26 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/sea_serpent_scales_deepblue_to_sea_serpent_scale_block_deepblue": {
+    "criteria": {
+      "has_sea_serpent_scales_deepblue": "2025-05-07 20:43:26 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_deepblue_leggings": {
+    "criteria": {
+      "has_item": "2025-05-07 20:43:26 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_deepblue_boots": {
+    "criteria": {
+      "has_item": "2025-05-07 20:43:26 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/pixie_wand": {
+    "criteria": {
+      "bestiary": "2025-05-07 20:50:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2025-05-07 20:53:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2025-05-07 20:53:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-05-07 21:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-05-07 21:08:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2025-05-07 21:12:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-05-07 21:12:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-05-07 21:24:44 +0000"
     },
     "done": true
   },
@@ -3364,21 +3490,135 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/fishing_rod": {
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
     "criteria": {
-      "has_string": "2025-05-07 20:38:18 +0000"
+      "has_end_stone": "2025-05-07 21:24:44 +0000"
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
     "criteria": {
-      "diamond_boots": "2025-05-07 19:25:08 +0000"
+      "has_end_stone": "2025-05-07 21:24:44 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_button": {
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
     "criteria": {
-      "has_planks": "2025-05-07 19:46:31 +0000"
+      "has_end_stone": "2025-05-07 21:24:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-05-07 21:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-05-07 21:28:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2025-05-07 21:28:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2025-05-07 21:28:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2025-05-07 21:28:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-05-07 21:28:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-05-07 21:28:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-05-07 21:28:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2025-05-07 21:31:48 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/diamond_hippogryph_armor": {
+    "criteria": {
+      "has_item": "2025-05-07 21:34:40 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/enderiophage": {
+    "criteria": {
+      "killed_by": "2025-05-07 21:35:41 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/capsid": {
+    "criteria": {
+      "capsid": "2025-05-07 21:35:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-05-07 21:40:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-05-07 21:40:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-05-07 21:40:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-05-07 21:40:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-05-07 21:40:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-05-07 21:40:41 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_fire_dragon": "2025-05-07 21:44:41 +0000"
     },
     "done": true
   },
@@ -3400,255 +3640,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/end_stone_brick_wall": {
-    "criteria": {
-      "has_end_stone_bricks": "2025-05-07 21:40:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tripwire_hook": {
-    "criteria": {
-      "has_string": "2025-05-07 20:38:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_honey_bottle": {
-    "criteria": {
-      "has_honey_bottle": "2025-05-07 20:53:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/honey_block": {
-    "criteria": {
-      "has_honey_bottle": "2025-05-07 20:53:25 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/kill_if_dragon": {
-    "criteria": {
-      "killed_fire_dragon": "2025-05-07 21:44:41 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/tide_deepblue_chestplate": {
-    "criteria": {
-      "has_item": "2025-05-07 20:43:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_stairs": {
-    "criteria": {
-      "has_planks": "2025-05-07 19:46:31 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/dragon_ice_spikes": {
-    "criteria": {
-      "has_item": "2025-05-07 19:51:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-05-07 19:46:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_pillar": {
-    "criteria": {
-      "has_purpur_block": "2025-05-07 21:28:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dark_oak_fence": {
-    "criteria": {
-      "has_planks": "2025-05-07 19:46:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_slab": {
-    "criteria": {
-      "has_planks": "2025-05-07 19:46:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/torch": {
-    "criteria": {
-      "has_stone_pickaxe": "2025-05-07 21:12:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_door": {
-    "criteria": {
-      "has_planks": "2025-05-07 19:46:31 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/building_blocks/silver_nugget_to_silver_ingot": {
-    "criteria": {
-      "has_silver_nugget": "2025-05-07 19:51:16 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/building_blocks/sea_serpent_scales_deepblue_to_sea_serpent_scale_block_deepblue": {
-    "criteria": {
-      "has_sea_serpent_scales_deepblue": "2025-05-07 20:43:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2025-05-07 21:40:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2025-05-07 19:40:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2025-05-07 21:40:41 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/capsid": {
-    "criteria": {
-      "capsid": "2025-05-07 21:35:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2025-05-07 21:12:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2025-05-07 21:28:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2025-05-07 21:25:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2025-05-07 21:24:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_stairs": {
-    "criteria": {
-      "has_purpur_block": "2025-05-07 21:28:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2025-05-07 21:28:30 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/tide_deepblue_leggings": {
-    "criteria": {
-      "has_item": "2025-05-07 20:43:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
-    "criteria": {
-      "has_end_stone_bricks": "2025-05-07 21:40:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
-    "criteria": {
-      "has_string": "2025-05-07 20:38:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2025-05-07 21:08:22 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/tide_deepblue_boots": {
-    "criteria": {
-      "has_item": "2025-05-07 20:43:26 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/diamond_hippogryph_armor": {
-    "criteria": {
-      "has_item": "2025-05-07 21:34:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2025-05-07 21:28:30 +0000"
-    },
-    "done": true
-  },
   "iceandfire:recipes/combat/armor_bronze_chestplate": {
     "criteria": {
       "has_item": "2025-05-07 21:44:50 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dark_oak_sign": {
-    "criteria": {
-      "has_planks": "2025-05-07 19:46:31 +0000"
-    },
-    "done": true
-  },
   "iceandfire:recipes/combat/armor_bronze_helmet": {
     "criteria": {
       "has_item": "2025-05-07 21:44:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/loom": {
-    "criteria": {
-      "has_string": "2025-05-07 20:38:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2025-05-07 21:24:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2025-05-07 21:24:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/shulker_box": {
-    "criteria": {
-      "has_shulker_shell": "2025-05-07 21:31:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2025-05-07 21:08:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2025-05-07 21:28:30 +0000"
     },
     "done": true
   },
