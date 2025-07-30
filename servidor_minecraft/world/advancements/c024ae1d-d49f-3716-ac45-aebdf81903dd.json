@@ -55,6 +55,7 @@
       "minecraft:forest": "2025-04-18 22:51:46 +0000",
       "minecraft:lush_caves": "2025-04-27 19:54:48 +0000",
       "minecraft:deep_cold_ocean": "2025-04-18 22:55:46 +0000",
+      "minecraft:ice_spikes": "2025-07-30 14:32:23 +0000",
       "minecraft:frozen_ocean": "2025-04-24 20:44:34 +0000",
       "minecraft:deep_frozen_ocean": "2025-04-24 20:43:59 +0000",
       "minecraft:ocean": "2025-04-18 22:53:29 +0000",
@@ -851,6 +852,7 @@
       "minecraft:ghast": "2025-04-24 19:54:08 +0000",
       "minecraft:vindicator": "2025-04-24 21:06:20 +0000",
       "minecraft:spider": "2025-04-24 21:06:19 +0000",
+      "minecraft:creeper": "2025-07-30 14:26:39 +0000",
       "minecraft:wither_skeleton": "2025-04-24 20:26:55 +0000",
       "minecraft:shulker": "2025-05-07 21:29:39 +0000",
       "minecraft:enderman": "2025-05-07 21:11:04 +0000",
@@ -3649,6 +3651,90 @@
   "iceandfire:recipes/combat/armor_bronze_helmet": {
     "criteria": {
       "has_item": "2025-05-07 21:44:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_teal_chestplate": {
+    "criteria": {
+      "has_item": "2025-07-30 14:21:01 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_teal_leggings": {
+    "criteria": {
+      "has_item": "2025-07-30 14:21:01 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_teal_helmet": {
+    "criteria": {
+      "has_item": "2025-07-30 14:21:01 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/sea_serpent_scales_teal_to_sea_serpent_scale_block_teal": {
+    "criteria": {
+      "has_sea_serpent_scales_teal": "2025-07-30 14:21:01 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_teal_boots": {
+    "criteria": {
+      "has_item": "2025-07-30 14:21:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-07-30 14:22:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-07-30 14:22:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-07-30 14:22:25 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dread_stone": {
+    "criteria": {
+      "has_item": "2025-07-30 14:29:10 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dread_torch": {
+    "criteria": {
+      "has_item": "2025-07-30 14:29:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-07-30 14:29:58 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/froststalker_kill": {
+    "criteria": {
+      "ex": "2025-07-30 14:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-07-30 14:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-07-30 14:41:07 +0000"
     },
     "done": true
   },
